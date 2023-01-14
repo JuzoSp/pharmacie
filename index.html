@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+    <title>Pharmacie Andriamahefarivo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta charset="UTF-8" lang="en"/>
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <link rel="shortcut icon" href="icon.png" />
+    </head>
+    <body>
+        <input type="checkbox" id="nav-toggle">
+        <div class="sidebar">
+            <div class="sidebar-brand">
+                <h1><span>PHARMACIE ANDRIAMAHEFARIVO</span></h1>
+            </div>
+            <div class="sidebar-menu">
+                <ul>
+                    <li>
+                        <a href="#Operation" class="active"><img src="operation.png" alt="">Operation Journalière</a>
+                    </li>
+                    <li>
+                        <a href="#Fournisseur" class="active"><img src="fournisseur.png" alt="">Fournisseurs</a>
+                    </li>
+                    <li>
+                        <a href="#Recette" class="active"><img src="recette.png" alt="">Recette et Versement</a>
+                    </li>
+                    <li>
+                        <a href="#Gestion" class="active"><img src="gestion.png" alt="">Gestion 10%</a>
+                    </li>
+                    <li>
+                        <a href="#Stock" class="active"><img src="stock.png" alt="">Stocks</a>
+                    </li>
+                    <li>
+                        <a href="#Bons" class="active"><img src="bon.png" alt="">Bons</a>
+                    </li>
+                    <li>
+                        <a href="#Payement" class="active"><img src="payement.png" alt="">Payement des personnels et Avance</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <div class="main-content">
+    <header>
+        <h2>
+         <label for="nav-toggle">
+              <img src="bare.png" alt=""> 
+          </label>
+        </h2>
+
+        <div class="search-warpper">
+            <input type="text" placeholder="Rechercher"/>
+            <button type="submit"><img src="recherche.png"></button>
+        </div>
+        <div class="user-warpper">
+            <img src="Jeanson.jpg" alt="Jeanson">
+            <div>
+                <h3>
+                    ANDRIAMAHEFARIVO Jeanson
+                    <small>Admin</small>
+                </h3>
+            </div>
+        </div>
+    </header>
+       <main>
+        <br>
+        <br>
+        <br>
+        <div class="card" id="Operation" >
+            <h2>Opération Journalière</h2>
+            <br>
+        <table style="width: 100%">
+            <tr>
+              <th>Date</th>
+              <th>Operations</th>
+              <th>Montant taxable</th>
+              <th>Taxe</th>
+              <th>Montant Hors Taxe</th>
+              <th>Montant Total</th>
+            </tr>
+            <tr style="height: 300px;">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+              <th>Récapitulation</th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+        <br>
+        <div class="card" id="Fournisseur">
+            <h2>Fournisseurs</h2>
+            <br>
+            <table style="width: 100%">
+                <tr>
+                  <th>Date</th>
+                  <th>Numéro Facture</th>
+                  <th>Nom du Fournisseur</th>
+                  <th>Montant de la Facture</th>
+                  <th>Date de payement</th>
+                </tr>
+                <tr style="height: 400px;">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                  <th>Récapitulation</th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                </tr>
+              </table>
+        </div>
+        <br>
+        <div class="card" id="Recette">
+            <h2>Recette et Versement</h2>
+            <br>
+            <table style="width: 100%">
+                <tr>
+                  <th>Date</th>
+                  <th>Caisse (Matin, Soir)</th>
+                  <th>Total</th>
+                  <th>Depense</th>
+                  <th>Total Net</th>
+                </tr>
+                <tr style="height: 400px;">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                  <th>Récapitulation</th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                </tr>
+              </table>
+        </div>
+        <br>
+        <div class="card" id="Gestion">
+            <h2>Gestion 10%</h2>
+            <br>
+            <table style="width: 100%">
+                <tr>
+                  <th>Date</th>
+                  <th>Entrée</th>
+                  <th>Sortie</th>
+                  <th>Solde</th>
+                  <th>Observation</th>
+                </tr>
+                <tr style="height: 400px;">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                  <th>Récapitulation</th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                </tr>
+              </table>
+        </div>
+        <br>
+        <div class="card" id="Stock">
+            <h2>Stocks</h2>
+            <br>
+            <table style="width: 100%">
+                <tr>
+                  <th>Date</th>
+                  <th>Designation</th>
+                  <th>Entrée</th>
+                  <th>Stock initial</th>
+                  <th>Sortie</th>
+                  <th>Stock final</th>
+                </tr>
+                <tr style="height: 400px;">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                  <th>Récapitulation</th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                </tr>
+              </table>
+        </div>
+        <br>
+        <div class="card" id="Bons">
+            <h2>Bons</h2>
+            <br>
+            <table  style="width: 100%">
+                <tr>
+                  <th>Date</th>
+                  <th>Nom(Adresse, Tél)</th>
+                  <th>Designation</th>
+                  <th>Prix U</th>
+                  <th>Prix T</th>
+                </tr>
+                <tr style="height: 400px;">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                  <th>Récapitulation</th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                </tr>
+              </table>
+        </div>
+        <br>
+        <div class="card" id="Payement">
+            <h2>Payement des Personnels et Avance</h2>
+            <br>
+            <table  style="width: 100%">
+                <tr>
+                  <th>Date</th>
+                  <th>Nom</th>
+                  <th>Salaire</th>
+                  <th>Avance</th>
+                  <th>Reste</th>
+                  <th>Sommes</th>
+                </tr>
+                <tr style="height: 400px;">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                  <th>Récapitulation</th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                </tr>
+              </table>
+        </div>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>
